@@ -17,5 +17,8 @@ let colorPrefe = prompt ("scrivi il tuo colore preferito");
 
 console.log(colorPrefe);
 
+// costante numero finale
+const ultimeCifre = 21;
+
 // mostrargli la password creata
-document.getElementById("password").innerHTML = `la tua password è: ${firstName}${surname}${colorPrefe}21`;
+document.getElementById("password").innerHTML = `la tua password è: ${firstName}${surname}${colorPrefe}${ultimeCifre}`;
